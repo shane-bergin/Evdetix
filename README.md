@@ -6,4 +6,4 @@ In addition, Evdetix includes a customizable event timer for tracking time spent
 
 Ticket data is retrieved securely from Freshdesk using your API credentials, and the dashboard refreshes manually on demand. Evdetix is ideal for monitoring SLA performance, reviewing weekly support metrics, and quickly summarizing ticket content — best used alongside the Freshdesk web portal as a focused enhancement.
 
-Feel free to copy, modify, and build upon this project. Best of luck!
+Feel free to copy, modify, and build upon this project. Copy it all and make a different app entirely, it's fine- just an API with a nice UI for MacOS. Best of luck!
