@@ -1,0 +1,13 @@
+{
+  "mistral:instruct": {
+    "modelfile": "Modelfile",
+    "parameters": {
+      "temperature": 0.4,
+      "top_k": 40,
+      "top_p": 1.0
+    },
+    "template": "chat",
+    "system": "",
+    "model": "mistral:instruct"
+  }
+}

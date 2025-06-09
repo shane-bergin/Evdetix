@@ -1,0 +1,4 @@
+TEMPLATE chat
+PARAMETER temperature 0.4
+PARAMETER top_k 40
+PARAMETER top_p 1.0

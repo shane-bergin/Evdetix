@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340EE99C2DAD4590009AE6EF /* CredentialsPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340EE99B2DAD4588009AE6EF /* CredentialsPromptView.swift */; };
+		34275B852DF7A0310028D01D /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = 34275B842DF7A0310028D01D /* CoreXLSX */; };
+		34275B872DF7A0CE0028D01D /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = 34275B862DF7A0CE0028D01D /* CoreXLSX */; };
+		343961B92DCE52F700576AA7 /* SLAPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343961B82DCE52F300576AA7 /* SLAPolicy.swift */; };
+		34501D4F2DE0BDB1003842E2 /* TicketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34501D4E2DE0BDAA003842E2 /* TicketDetailView.swift */; };
+		345901822DDBB05B00F7929A /* SetupWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345901812DDBB05200F7929A /* SetupWizardView.swift */; };
+		345901A52DDBCCD100F7929A /* OllamaIsRunning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345901A42DDBCCC800F7929A /* OllamaIsRunning.swift */; };
+		345901A72DDBD39200F7929A /* OllamaWaiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345901A62DDBD38F00F7929A /* OllamaWaiter.swift */; };
+		349128D12D9DE2940028C102 /* EventLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349128D02D9DE28F0028C102 /* EventLog.swift */; };
+		349128D32D9DE2C80028C102 /* EventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349128D22D9DE2C50028C102 /* EventLogger.swift */; };
+		349128D52D9DE2D70028C102 /* EventTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349128D42D9DE2D10028C102 /* EventTimerView.swift */; };
+		34FD5D512D9492A2009D7F70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD5D1D2D942E4E009D7F70 /* ContentView.swift */; };
+		34FD5D522D9492C6009D7F70 /* TicketTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD5D4B2D94905B009D7F70 /* TicketTableView.swift */; };
+		34FD5D532D9492CB009D7F70 /* WeekRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD5D4D2D949161009D7F70 /* WeekRange.swift */; };
+		34FD5D542D9492CF009D7F70 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD5D4E2D949190009D7F70 /* Ticket.swift */; };
+		34FD5D552D9492D4009D7F70 /* FreshdeskAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD5D4A2D948E94009D7F70 /* FreshdeskAPI.swift */; };
+		34FD5D562D9492D9009D7F70 /* RawTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD5D4F2D9491C9009D7F70 /* RawTicket.swift */; };
+		34FD5D592D949597009D7F70 /* WeekGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD5D582D949592009D7F70 /* WeekGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FD5D2A2D942E51009D7F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FD5D102D942E4E009D7F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FD5D172D942E4E009D7F70;
+			remoteInfo = Evdetix;
+		};
+		34FD5D342D942E51009D7F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FD5D102D942E4E009D7F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FD5D172D942E4E009D7F70;
+			remoteInfo = Evdetix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		340EE99B2DAD4588009AE6EF /* CredentialsPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsPromptView.swift; sourceTree = "<group>"; };
+		343961B82DCE52F300576AA7 /* SLAPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLAPolicy.swift; sourceTree = "<group>"; };
+		34501D4E2DE0BDAA003842E2 /* TicketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailView.swift; sourceTree = "<group>"; };
+		345901812DDBB05200F7929A /* SetupWizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupWizardView.swift; sourceTree = "<group>"; };
+		345901A42DDBCCC800F7929A /* OllamaIsRunning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaIsRunning.swift; sourceTree = "<group>"; };
+		345901A62DDBD38F00F7929A /* OllamaWaiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaWaiter.swift; sourceTree = "<group>"; };
+		349128D02D9DE28F0028C102 /* EventLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLog.swift; sourceTree = "<group>"; };
+		349128D22D9DE2C50028C102 /* EventLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLogger.swift; sourceTree = "<group>"; };
+		349128D42D9DE2D10028C102 /* EventTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTimerView.swift; sourceTree = "<group>"; };
+		34FD5D182D942E4E009D7F70 /* Evdetix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evdetix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FD5D1D2D942E4E009D7F70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34FD5D292D942E51009D7F70 /* EvdetixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvdetixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FD5D332D942E51009D7F70 /* EvdetixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvdetixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FD5D4A2D948E94009D7F70 /* FreshdeskAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshdeskAPI.swift; sourceTree = "<group>"; };
+		34FD5D4B2D94905B009D7F70 /* TicketTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableView.swift; sourceTree = "<group>"; };
+		34FD5D4D2D949161009D7F70 /* WeekRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekRange.swift; sourceTree = "<group>"; };
+		34FD5D4E2D949190009D7F70 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		34FD5D4F2D9491C9009D7F70 /* RawTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawTicket.swift; sourceTree = "<group>"; };
+		34FD5D582D949592009D7F70 /* WeekGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		345901932DDBC1E800F7929A /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34FD5D1A2D942E4E009D7F70 /* Evdetix */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Evdetix;
+			sourceTree = "<group>";
+		};
+		34FD5D2C2D942E51009D7F70 /* EvdetixTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EvdetixTests;
+			sourceTree = "<group>";
+		};
+		34FD5D362D942E51009D7F70 /* EvdetixUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EvdetixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FD5D152D942E4E009D7F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD5D262D942E51009D7F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34275B852DF7A0310028D01D /* CoreXLSX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD5D302D942E51009D7F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34275B872DF7A0CE0028D01D /* CoreXLSX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FD5D0F2D942E4E009D7F70 = {
+			isa = PBXGroup;
+			children = (
+				345901932DDBC1E800F7929A /* Resources */,
+				34FD5D1A2D942E4E009D7F70 /* Evdetix */,
+				34FD5D2C2D942E51009D7F70 /* EvdetixTests */,
+				34FD5D362D942E51009D7F70 /* EvdetixUITests */,
+				34FD5D472D942EA4009D7F70 /* Models */,
+				34FD5D482D942EAF009D7F70 /* Networking */,
+				34FD5D192D942E4E009D7F70 /* Products */,
+				34FD5D492D942EB6009D7F70 /* Utilities */,
+				34FD5D462D942E9A009D7F70 /* Views */,
+			);
+			sourceTree = "<group>";
+		};
+		34FD5D192D942E4E009D7F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FD5D182D942E4E009D7F70 /* Evdetix.app */,
+				34FD5D292D942E51009D7F70 /* EvdetixTests.xctest */,
+				34FD5D332D942E51009D7F70 /* EvdetixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FD5D462D942E9A009D7F70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34501D4E2DE0BDAA003842E2 /* TicketDetailView.swift */,
+				345901812DDBB05200F7929A /* SetupWizardView.swift */,
+				340EE99B2DAD4588009AE6EF /* CredentialsPromptView.swift */,
+				349128D42D9DE2D10028C102 /* EventTimerView.swift */,
+				34FD5D4B2D94905B009D7F70 /* TicketTableView.swift */,
+				34FD5D1D2D942E4E009D7F70 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34FD5D472D942EA4009D7F70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				349128D02D9DE28F0028C102 /* EventLog.swift */,
+				34FD5D582D949592009D7F70 /* WeekGenerator.swift */,
+				34FD5D4E2D949190009D7F70 /* Ticket.swift */,
+				34FD5D4D2D949161009D7F70 /* WeekRange.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34FD5D482D942EAF009D7F70 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				34FD5D4F2D9491C9009D7F70 /* RawTicket.swift */,
+				34FD5D4A2D948E94009D7F70 /* FreshdeskAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		34FD5D492D942EB6009D7F70 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				345901A62DDBD38F00F7929A /* OllamaWaiter.swift */,
+				345901A42DDBCCC800F7929A /* OllamaIsRunning.swift */,
+				343961B82DCE52F300576AA7 /* SLAPolicy.swift */,
+				349128D22D9DE2C50028C102 /* EventLogger.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FD5D172D942E4E009D7F70 /* Evdetix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FD5D3D2D942E51009D7F70 /* Build configuration list for PBXNativeTarget "Evdetix" */;
+			buildPhases = (
+				34FD5D142D942E4E009D7F70 /* Sources */,
+				34FD5D152D942E4E009D7F70 /* Frameworks */,
+				34FD5D162D942E4E009D7F70 /* Resources */,
+				34501D4D2DE0BAD3003842E2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				345901932DDBC1E800F7929A /* Resources */,
+				34FD5D1A2D942E4E009D7F70 /* Evdetix */,
+			);
+			name = Evdetix;
+			packageProductDependencies = (
+			);
+			productName = Evdetix;
+			productReference = 34FD5D182D942E4E009D7F70 /* Evdetix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FD5D282D942E51009D7F70 /* EvdetixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FD5D402D942E51009D7F70 /* Build configuration list for PBXNativeTarget "EvdetixTests" */;
+			buildPhases = (
+				34FD5D252D942E51009D7F70 /* Sources */,
+				34FD5D262D942E51009D7F70 /* Frameworks */,
+				34FD5D272D942E51009D7F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FD5D2B2D942E51009D7F70 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34FD5D2C2D942E51009D7F70 /* EvdetixTests */,
+			);
+			name = EvdetixTests;
+			packageProductDependencies = (
+				34275B842DF7A0310028D01D /* CoreXLSX */,
+			);
+			productName = EvdetixTests;
+			productReference = 34FD5D292D942E51009D7F70 /* EvdetixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34FD5D322D942E51009D7F70 /* EvdetixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FD5D432D942E51009D7F70 /* Build configuration list for PBXNativeTarget "EvdetixUITests" */;
+			buildPhases = (
+				34FD5D2F2D942E51009D7F70 /* Sources */,
+				34FD5D302D942E51009D7F70 /* Frameworks */,
+				34FD5D312D942E51009D7F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FD5D352D942E51009D7F70 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34FD5D362D942E51009D7F70 /* EvdetixUITests */,
+			);
+			name = EvdetixUITests;
+			packageProductDependencies = (
+				34275B862DF7A0CE0028D01D /* CoreXLSX */,
+			);
+			productName = EvdetixUITests;
+			productReference = 34FD5D332D942E51009D7F70 /* EvdetixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FD5D102D942E4E009D7F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					34FD5D172D942E4E009D7F70 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					34FD5D282D942E51009D7F70 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 34FD5D172D942E4E009D7F70;
+					};
+					34FD5D322D942E51009D7F70 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 34FD5D172D942E4E009D7F70;
+					};
+				};
+			};
+			buildConfigurationList = 34FD5D132D942E4E009D7F70 /* Build configuration list for PBXProject "Evdetix" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34FD5D0F2D942E4E009D7F70;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				34275B812DF79FD80028D01D /* XCRemoteSwiftPackageReference "CoreXLSX" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34FD5D192D942E4E009D7F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FD5D172D942E4E009D7F70 /* Evdetix */,
+				34FD5D282D942E51009D7F70 /* EvdetixTests */,
+				34FD5D322D942E51009D7F70 /* EvdetixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FD5D162D942E4E009D7F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD5D272D942E51009D7F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD5D312D942E51009D7F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34501D4D2DE0BAD3003842E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/zsh;
+			shellScript = "#!/bin/zsh\n\nOLLAMA_DIR=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources\"\n\nOLLAMA_BIN=\"${OLLAMA_DIR}/ollama\"\nOLLAMA_RB=\"${OLLAMA_DIR}/run_ollama.rb\"\n\necho \"Checking Ollama components in: $OLLAMA_DIR\"\n\n# Make ollama binary executable\nif [ -f \"$OLLAMA_BIN\" ]; then\n    chmod +x \"$OLLAMA_BIN\"\n    echo \"Marked 'ollama' binary as executable\"\nelse\n    echo \"'ollama' binary not found at: $OLLAMA_BIN\"\nfi\n\n# Make fallback Ruby script executable\nif [ -f \"$OLLAMA_RB\" ]; then\n    chmod +x \"$OLLAMA_RB\"\n    echo \"Marked 'run_ollama.rb' as executable\"\nelse\n    echo \"'run_ollama.rb' script not found at: $OLLAMA_RB\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FD5D142D942E4E009D7F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349128D12D9DE2940028C102 /* EventLog.swift in Sources */,
+				349128D32D9DE2C80028C102 /* EventLogger.swift in Sources */,
+				34501D4F2DE0BDB1003842E2 /* TicketDetailView.swift in Sources */,
+				345901A72DDBD39200F7929A /* OllamaWaiter.swift in Sources */,
+				34FD5D522D9492C6009D7F70 /* TicketTableView.swift in Sources */,
+				345901822DDBB05B00F7929A /* SetupWizardView.swift in Sources */,
+				34FD5D512D9492A2009D7F70 /* ContentView.swift in Sources */,
+				343961B92DCE52F700576AA7 /* SLAPolicy.swift in Sources */,
+				340EE99C2DAD4590009AE6EF /* CredentialsPromptView.swift in Sources */,
+				345901A52DDBCCD100F7929A /* OllamaIsRunning.swift in Sources */,
+				349128D52D9DE2D70028C102 /* EventTimerView.swift in Sources */,
+				34FD5D542D9492CF009D7F70 /* Ticket.swift in Sources */,
+				34FD5D552D9492D4009D7F70 /* FreshdeskAPI.swift in Sources */,
+				34FD5D532D9492CB009D7F70 /* WeekRange.swift in Sources */,
+				34FD5D592D949597009D7F70 /* WeekGenerator.swift in Sources */,
+				34FD5D562D9492D9009D7F70 /* RawTicket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD5D252D942E51009D7F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD5D2F2D942E51009D7F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FD5D2B2D942E51009D7F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FD5D172D942E4E009D7F70 /* Evdetix */;
+			targetProxy = 34FD5D2A2D942E51009D7F70 /* PBXContainerItemProxy */;
+		};
+		34FD5D352D942E51009D7F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FD5D172D942E4E009D7F70 /* Evdetix */;
+			targetProxy = 34FD5D342D942E51009D7F70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34FD5D3B2D942E51009D7F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ALTERNATE_PERMISSIONS_FILES[sdk=*]" = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34FD5D3C2D942E51009D7F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		34FD5D3E2D942E51009D7F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Evdetix/Evdetix.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Evdetix/Preview Content\"";
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				"ENABLE_OUTGOING_NETWORK_CONNECTIONS[sdk=*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Evdetix;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 3.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanebergin.evdetix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		34FD5D3F2D942E51009D7F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Evdetix/Evdetix.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Evdetix/Preview Content\"";
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Evdetix;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 3.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanebergin.evdetix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		34FD5D412D942E51009D7F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanebergin.EvdetixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evdetix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Evdetix";
+			};
+			name = Debug;
+		};
+		34FD5D422D942E51009D7F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanebergin.EvdetixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evdetix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Evdetix";
+			};
+			name = Release;
+		};
+		34FD5D442D942E51009D7F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanebergin.EvdetixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Evdetix;
+			};
+			name = Debug;
+		};
+		34FD5D452D942E51009D7F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanebergin.EvdetixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Evdetix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FD5D132D942E4E009D7F70 /* Build configuration list for PBXProject "Evdetix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FD5D3B2D942E51009D7F70 /* Debug */,
+				34FD5D3C2D942E51009D7F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		34FD5D3D2D942E51009D7F70 /* Build configuration list for PBXNativeTarget "Evdetix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FD5D3E2D942E51009D7F70 /* Debug */,
+				34FD5D3F2D942E51009D7F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		34FD5D402D942E51009D7F70 /* Build configuration list for PBXNativeTarget "EvdetixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FD5D412D942E51009D7F70 /* Debug */,
+				34FD5D422D942E51009D7F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		34FD5D432D942E51009D7F70 /* Build configuration list for PBXNativeTarget "EvdetixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FD5D442D942E51009D7F70 /* Debug */,
+				34FD5D452D942E51009D7F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34275B812DF79FD80028D01D /* XCRemoteSwiftPackageReference "CoreXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/CoreXLSX.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34275B842DF7A0310028D01D /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34275B812DF79FD80028D01D /* XCRemoteSwiftPackageReference "CoreXLSX" */;
+			productName = CoreXLSX;
+		};
+		34275B862DF7A0CE0028D01D /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreXLSX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34FD5D102D942E4E009D7F70 /* Project object */;
+}
