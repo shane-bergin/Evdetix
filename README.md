@@ -1,3 +1,6 @@
+For this to function you need to download the ollama binary and place it in your Resources directory in Xcode https://ollama.com/
+
+
 Evdetix is a native macOS SwiftUI app that integrates with the Freshdesk API to support and streamline internal IT workflows. It provides weekly ticket tracking, SLA monitoring, and CSV/XLSX export — including exports from the built-in Event Timer, which offers insight into support-related work that may not be associated with a specific ticket.
 
 The Generate Summary feature enables optional, fully offline AI summarization powered by Ollama using the mistral:instruct model. This feature summarizes a ticket’s description and ongoing conversation, extracting context, surfacing action items, and outlining next steps — all without exposing organizational data to external services like ChatGPT or Google Gemini. While helpful for triage, the summaries aren't always perfect; I recommend comparing them to the full ticket in Freshdesk, and I plan to upgrade the underlying model in the future.
