@@ -1,5 +1,10 @@
 For this to function you need to download the ollama binary and place it in your Resources directory in Xcode https://ollama.com/
 
+Before distributing your own .dmg is you so decide to compile one, ensure that the embedded binaries are marked executable:
+
+
+chmod +x Evdetix.app/Contents/Resources/ollama
+chmod +x Evdetix.app/Contents/Resources/run_ollama.rb
 
 Evdetix is a native macOS SwiftUI app that integrates with the Freshdesk API to support and streamline internal IT workflows. It provides weekly ticket tracking, SLA monitoring, and CSV/XLSX export — including exports from the built-in Event Timer, which offers insight into support-related work that may not be associated with a specific ticket.
 
