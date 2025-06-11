@@ -1,6 +1,6 @@
 For this to function you need to download the ollama binary and place it in your Resources directory in Xcode https://ollama.com/
 
-Before distributing your own .dmg is you so decide to compile one, ensure that the embedded binaries are marked executable:
+Before distributing your own .dmg is you so decide to compile one, ensure that the embedded ruby script and binaries are marked executable:
 
 
 chmod +x Evdetix.app/Contents/Resources/ollama
