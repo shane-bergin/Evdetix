@@ -1,10 +1,12 @@
-For this to function you need to download the ollama binary and place it in your Resources directory in Xcode https://ollama.com/
-
-Before distributing your own .dmg is you so decide to compile one, ensure that the embedded ruby script and binaries are marked executable:
+Known issue: if you install from the .dmg -> /Applications directory, you must manually navigate to the Evdetix>Contents>Resources directory and make the below files executable.
 
 
 chmod +x Evdetix.app/Contents/Resources/ollama
 chmod +x Evdetix.app/Contents/Resources/run_ollama.rb
+
+
+(if the generate summary button doesnt work despite the above steps 'manually' run the ruby script in Temrinal -once- so mistral:instruct model blob can be pulled. This should only need to occur the one time. This will be fixed in the future .dmg release once it is officially signed and has the neccessary App Sandbox entitlements available to it)
+
 
 Evdetix is a native macOS SwiftUI app that integrates with the Freshdesk API to support and streamline internal IT workflows. It provides weekly ticket tracking, SLA monitoring, and CSV/XLSX export — including exports from the built-in Event Timer, which offers insight into support-related work that may not be associated with a specific ticket.
 
