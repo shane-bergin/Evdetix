@@ -1,5 +1,3 @@
-Known issue: if you install from the .dmg -> /Applications directory, you must manually navigate to the Evdetix>Contents>Resources directory and make the below files executable.
-
 
 chmod +x Evdetix.app/Contents/Resources/ollama
 chmod +x Evdetix.app/Contents/Resources/run_ollama.rb
