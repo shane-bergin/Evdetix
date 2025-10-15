@@ -26,7 +26,7 @@ Operating System. macOS 15.0 (Sonoma) or later
                     artifacts may occur due to SwiftUI rendering changes.
                     These can typically be resolved by resizing the window.
 
-Memory........... Minimum 16 MB of RAM
+Memory........... Minimum 16 GB of RAM
 
 Hard Disk Space.. At least 10–15 GB free for Ollama model files
                   and application cache.
