@@ -6,33 +6,8 @@ In addition, Evdetix includes a customizable event timer for tracking time spent
 
 Ticket data is retrieved securely from Freshdesk using your API credentials, and the dashboard refreshes manually on demand. Evdetix is ideal for monitoring SLA performance, reviewing weekly support metrics, and quickly summarizing ticket content — best used alongside the Freshdesk web portal as a focused enhancement.
 
-**********************************************
-             Macintosh System Requirements
-                     for Evdetix
-**********************************************
 
-Computer......... Apple Macintosh with Apple Silicon (M1 or later)
-                  * Intel-based Macs (i7, 8th Gen or newer) supported
-                    with Rosetta 2, but not recommended for AI tasks.
-
-Operating System. macOS 15.0 (Sonoma) or later
-                  * On macOS 16.0+ (Sequoia), some window drawing
-                    artifacts may occur due to SwiftUI rendering changes.
-                    These can typically be resolved by resizing the window.
-
-Memory........... Minimum 16 GB of RAM
-
-Hard Disk Space.. At least 10–15 GB free for Ollama model files
-                  and application cache.
-
-Graphics......... Apple Neural Engine or Metal-compatible GPU
-                  * No discrete graphics card required.
-
-Network.......... Internet connection required for accessing Freshdesk's API & first-time setup
-                  of AI models.
-
-Input Device..... Keyboard and pointing device required.
-                  (Mouse, trackpad, or other compatible input)
+Computer......... Apple Macintosh with Apple Silicon (M1 or later - Rosetta 2)
 
 Optional......... Terminal access to run first-time permissions fix:
                   chmod +x Evdetix.app/Contents/Resources/ollama
